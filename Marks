@@ -1,0 +1,16 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+int main()
+{
+	int marks[5];
+	int score = 0;
+	for (int i = 0; i < 5; i++) {
+		cout << "Enter the 5 subjects" << endl;
+		cin >> marks[i];
+		score = score + marks[i];
+	}
+	cout << "The total is " << score << endl;
+	cout << "And the avg is " << score / 5 << endl;
+}
